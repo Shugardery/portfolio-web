@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+  <!--=============== BOXICONS ===============-->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <meta name="description" content="Hola, bienvenido a mi Portafolio Web de Prueba, soy Josh Dev, Desarrollador Web">
+  <link rel="canonical" href="https://shugardery.github.io/portfolio-web/">
+  <link rel="icon" href="https://shugardery.github.io/portfolio-web/assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="https://shugardery.github.io/portfolio-web/favicon.png">
+  <meta name="theme-color" content="#d90062">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:type" content="website">
+  <meta property="og:title" name="twitter:title" content="Prueba de Portfolio Web - joshdev">
+  <meta property="og:description" name="twitter:description" content="Hola, bienvenido a mi Portafolio Web de Prueba, soy Josh Dev, Desarrollador Web">
+  <meta property="og:image" name="twitter:image" content="https://shugardery.github.io/portfolio-web/assets/img/portada-portfolio.webp">
+  <meta property="og:url" name="twitter:url" content="https://shugardery.github.io/portfolio-web/">
+
+  <title>Responsive Portfolio Website Miririnn</title>
+</head>
+
+<body>
+  <!-- *** *** HEADER *** *** -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Miririnn</a>
+
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link" class="">
+              <i class="bx bx-home-alt"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="bx bx-user"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="bx bx-book"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#work" class="nav__link">
+              <i class="bx bx-briefcase-alt-2"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="bx bx-message-square-detail"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Theme change button -->
+      <i class="bx bx-moon change-theme" id="theme-button"></i>
+    </nav>
+  </header>
+
+  <!-- *** *** MAIN *** *** -->
+  <main class="main">
+    <!-- *** *** HOME *** *** -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting">Holita, soy</span>
+          <h1 class="home__name">Miririnn</h1>
+          <h3 class="home__education">Frontend Developer</h3>
+
+          <div class="home__buttons">
+            <a download="" href="assets/pdf/Ansel-Cv.pdf" class="button button--ghost">
+              Descargar CV
+            </a>
+            <a href="#about" class="button">Acerca de Mí</a>
+          </div>
+        </div>
+
+        <div class="home__handle">
+          <img src="assets/img/perfil.png" alt="" class="home__img" />
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://github.com/" target="_blank" class="home__social-link">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://dribbble.com" target="_blank" class="home__social-link">
+            <i class="bx bxl-dribbble"></i>
+          </a>
+        </div>
+
+        <a href="#about" class="home__scroll">
+          <i class="bx bx-mouse home__scroll-icon"></i>
+          <span class="home__scroll-name">Ir Abajo</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- *** *** ABOUT *** *** -->
+    <section class="about section" id="about">
+      <span class="section__subtitle">Mi Introducción</span>
+      <h2 class="section__title">Sobre Mí</h2>
+
+      <div class="about__container container grid">
+        <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+        <div class="about__data">
+          <div class="about__info">
+            <div class="about__box">
+              <i class="bx bx-award about__icon"></i>
+              <h3 class="about__title">Experiencia</h3>
+              <span class="about__subtitle">2 Años Trabajando</span>
+            </div>
+
+            <div class="about__box">
+              <i class="bx bx-briefcase-alt about__icon"></i>
+              <h3 class="about__title">Completados</h3>
+              <span class="about__subtitle">32+ Proyectos</span>
+            </div>
+
+            <div class="about__box">
+              <i class="bx bx-support about__icon"></i>
+              <h3 class="about__title">Soporte</h3>
+              <span class="about__subtitle">En Línea 24/7</span>
+            </div>
+          </div>
+
+          <p class="about__description">
+            Ser un Frontend Developer con una gran pasión para diseñar, así como crear páginas y sitios web funcionales, es lo que caracteriza mis habilidades. He trabajado con varias tecnologías y es notable destacar que cada una puede optimizar o mejorar el avance de una forma considerable.
+            <br>
+            Ando en la búsqueda de nuevos retos y oportunidades para mi crecimiento personal, considero que es la principal motivación para seguir escalando, subiendo y aprendiendo como desarrollador web.
+          </p>
+
+          <a href="#contact" class="button">Contáctame</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- *** *** SKILLS *** *** -->
+    <section class="skills section" id="skills">
+      <span class="section__subtitle">Mis Habilidades</span>
+      <h2 class="section__title">Mi Experiencia</h2>
+
+      <div class="skills__container container grid">
+        <div class="skills__content">
+          <h3 class="skills__title">Frontend developer</h3>
+
+          <div class="skills__box">
+            <div class="skills_group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">JavaScript</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills_group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Git</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">React</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__content">
+          <h3 class="skills__title">Frameworks</h3>
+
+          <div class="skills__box">
+            <div class="skills_group">
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Bootstrap</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Angular</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills_group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Node JS</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Svelte</h3>
+                  <span class="skills__level">Intermedio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *** *** SERVICES *** *** -->
+    <section class="services section">
+      <span class="section__subtitle">Mis Servicios</span>
+      <h2 class="section__title">Lo Que Te Ofrezco</h2>
+
+      <div class="services__container container grid">
+        <div class="services__card">
+          <h3 class="services__title">
+            Diseño De<br>
+            Productos
+          </h3>
+
+          <span class="services__button">
+            Ver Más
+            <i class="bx bx-right-arrow-alt services__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class="bx bx-x services__modal-close"></i>
+              <h3 class="services__modal-title">Diseño De Productos</h3>
+              <p class="services__modal-description">
+                Servicio con más de 3 años de experiencia. Proporciono un trabajo de calidad a clientes y empresas.
+              </p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Desarrollo la interfaz de usuario.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Desarrollo de páginas web.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Creo interacciones de elementos UX.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Posiciono la marca de tu empresa.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">
+                    Diseño y maquetas de productos para empresas.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h3 class="services__title">
+            Desarrollador<br>
+            UI/UX
+          </h3>
+
+          <span class="services__button">
+            Ver Más
+            <i class="bx bx-right-arrow-alt services__icon"></i>
+          </span>
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class="bx bx-x services__modal-close"></i>
+              <h3 class="services__modal-title">Desarrollador UI/UX</h3>
+              <p class="services__modal-description">
+                Servicio con más de 3 años de experiencia. Proporciono un trabajo de calidad a clientes y empresas.
+              </p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Desarrollo la interfaz de usuario.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Desarrollo de páginas web.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Creo interacciones de elementos UX.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Posiciono la marca de tu empresa.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">
+                    Diseño y maquetas de productos para empresas.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h3 class="services__title">
+            Desarrollador<br>
+            Visual
+          </h3>
+
+          <span class="services__button">
+            Ver Más
+            <i class="bx bx-right-arrow-alt services__icon"></i>
+          </span>
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class="bx bx-x services__modal-close"></i>
+              <h3 class="services__modal-title">Desarrollador Visual</h3>
+              <p class="services__modal-description">
+                Servicio con más de 3 años de experiencia. Proporcionar un trabajo de calidad a clientes y empresas.
+              </p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Desarrollo la interfaz de usuario.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Desarrollo de páginas web.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Creo interacciones de elementos UX.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">Posiciono la marca de tu empresa.</p>
+                </li>
+                <li class="services__modal-item">
+                  <i class="bx bx-check services__modal-icon"></i>
+                  <p class="services__modal-info">
+                    Diseño y maquetas de productos para empresas.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *** *** WORK *** *** -->
+    <section class="work section" id="work">
+      <span class="section__subtitle">Mi Portafolio</span>
+      <h2 class="section__title">Trabajos Recientes</h2>
+
+      <div class="work__filters">
+        <span class="work__item active-work" data-filter="all">Todo</span>
+        <span class="work__item" data-filter=".web">Web</span>
+        <span class="work__item" data-filter=".movil">Móvil</span>
+        <span class="work__item" data-filter=".desing">Diseño</span>
+      </div>
+
+      <div class="work__container container grid">
+        <div class="work__card mix web">
+          <img src="assets/img/work1.jpg" alt="" class="work__img" />
+
+          <h3 class="work__title">Diseño Web</h3>
+
+          <a href="#" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix movil">
+          <img src="assets/img/work2.jpg" alt="" class="work__img" />
+
+          <h3 class="work__title">App Móvil</h3>
+
+          <a href="#" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix desing">
+          <img src="assets/img/work3.jpg" alt="" class="work__img" />
+
+          <h3 class="work__title">Diseño de Marca</h3>
+
+          <a href="#" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix web">
+          <img src="assets/img/work4.jpg" alt="" class="work__img" />
+
+          <h3 class="work__title">Diseño Web</h3>
+
+          <a href="#" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix movil">
+          <img src="assets/img/work5.jpg" alt="" class="work__img" />
+
+          <h3 class="work__title">App móvil</h3>
+
+          <a href="#" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- *** *** TESTIMONIALS *** *** -->
+    <section class="testimonial section">
+      <span class="section__subtitle">Mis Clientes Dicen</span>
+      <h2 class="section__title">Testimonios</h2>
+
+      <div class="testimonial__container container swiper">
+        <div class="swiper-wrapper">
+          <div class="testimonial__card swiper-slide">
+            <img src="assets/img/testimonial1.png" alt="" class="testimonial__img" />
+
+            <h3 class="testimonial__name">REI Kizz P</h3>
+            <p class="testimonial__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptates? Ad ullam officia minus est amet excepturi, vitae repellendus necessitatibus quos obcaecati corporis accusamus deleniti nulla saepe nobis incidunt sit.
+            </p>
+          </div>
+
+          <div class="testimonial__card swiper-slide">
+            <img src="assets/img/testimonial2.png" alt="" class="testimonial__img" />
+
+            <h3 class="testimonial__name">Mogui</h3>
+            <p class="testimonial__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptates? Ad ullam officia minus est amet excepturi, vitae repellendus necessitatibus quos obcaecati corporis accusamus deleniti nulla saepe nobis incidunt sit.
+            </p>
+          </div>
+
+          <div class="testimonial__card swiper-slide">
+            <img src="assets/img/testimonial3.png" alt="" class="testimonial__img" />
+
+            <h3 class="testimonial__name">Ariol</h3>
+            <p class="testimonial__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptates? Ad ullam officia minus est amet excepturi, vitae repellendus necessitatibus quos obcaecati corporis accusamus deleniti nulla saepe nobis incidunt sit.
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- *** *** CONTACT *** *** -->
+    <section class="contact section" id="contact">
+      <span class="section__subtitle">Póngase en contacto conmigo</span>
+      <h2 class="section__title">Contactarme</h2>
+
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h3 class="contact__title">Habla conmigo</h3>
+
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="bx bx-mail-send contact__card-icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">user@gmail.com</span>
+
+              <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
+                Escríbeme
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="bx bxl-whatsapp contact__card-icon"></i>
+              <h3 class="contact__card-title">Whatsapp</h3>
+              <span class="contact__card-data">946-888-777</span>
+
+              <a href="https://api.whatsapp.com/send?phone=51946888777&text=Hola, solicito más info" target="_blank"
+                class="contact__button">
+                Escríbeme
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="bx bxl-messenger contact__card-icon"></i>
+              <h3 class="contact__card-title">Messenger</h3>
+              <span class="contact__card-data">user.000</span>
+
+              <a href="https://m.me/taquitodev" target="_blank" class="contact__button">
+                Escríbeme
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <h3 class="contact__title">Escríbeme para coordinar tu proyecto</h3>
+
+          <form action="" class="contact__form">
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Nombres</label>
+              <input type="text" placeholder="Escribe tus nombres" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Email</label>
+              <input type="text" placeholder="Ingresa tu email" class="contact__form-input"/>
+            </div>
+
+            <div class="contact__form-div contact__form-area">
+              <label for="" class="contact__form-tag">Proyecto</label>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Descríbeme la idea de tu proyecto"
+                class="contact__form-input"></textarea>
+            </div>
+
+            <buttun class="button">ENVIAR MENSAJE</buttun>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- *** *** FOOTER *** *** -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Miririnn</h1>
+      <ul class="footer__list">
+        <li>
+          <a href="#about" class="footer__link">Acerca</a>
+        </li>
+
+        <li>
+          <a href="#work" class="footer__link">Proyectos</a>
+        </li>
+
+        <li>
+          <a href="#testimonial" class="footer__link">Testimonios</a>
+        </li>
+      </ul>
+
+      <ul class="footer__social">
+        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link"><i class="bx bxl-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+      </ul>
+
+      <span class="footer__copy"> &#169; Josh A Dev</span>
+    </div>
+  </footer>
+
+  <!-- *** *** SWIPER JS *** *** -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- *** *** SCROLL REVEAL *** *** -->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!-- *** *** MIXITUP FILTER *** *** -->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!-- *** *** MAIN JS *** *** -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
